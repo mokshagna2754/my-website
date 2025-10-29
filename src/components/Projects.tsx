@@ -60,7 +60,8 @@ const Projects = () => {
       status: "Completed",
       year: "2025",
       color: "primary",
-      githubUrl: "https://github.com/mokshagna2754/Major_Project"
+      githubUrl: "https://github.com/mokshagna2754/Major_Project",
+      images: ["/data hiding1.png", "/data hiding2.png"]
     },
     {
       id: 4,
@@ -82,15 +83,15 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "Vibe Order Dashboard",
+      title: "FlavourFlow",
       category: "Full-Stack Development",
-      description: "Modern order management system built with TypeScript and advanced frontend technologies",
-      longDescription: "A comprehensive order management dashboard built with TypeScript for robust type safety and modern React patterns. Features include real-time order tracking, analytics, and intuitive user interface.",
+      description: "Modern food ordering and management system built with TypeScript and advanced frontend technologies",
+      longDescription: "A comprehensive food ordering platform built with TypeScript for robust type safety and modern React patterns. Features include real-time order tracking, menu management, analytics, and intuitive user interface.",
       icon: <Users className="w-6 h-6" />,
-      technologies: ["TypeScript", "React", "Dashboard UI", "Order Management", "Modern Frontend"],
+      technologies: ["TypeScript", "React", "Food Ordering", "Order Management", "Modern Frontend"],
       achievements: [
         "Real-time order tracking system",
-        "Analytics and reporting features",
+        "Menu management and analytics",
         "Intuitive user interface",
         "Type-safe implementation"
       ],
@@ -98,7 +99,7 @@ const Projects = () => {
       year: "2025",
       color: "primary",
       githubUrl: "https://github.com/mokshagna2754/vibe-order-dash",
-      images: [] // Add images here when you have screenshots, e.g., ["/vibe-order-dash.png"]
+      images: ["/flavourflow1.jpeg", "/flavourflow2.jpeg", "/flavourflow3.jpeg", "/flavourflow4.jpeg", "/flavourflow5.jpeg"]
     },
     {
       id: 6,
@@ -289,7 +290,8 @@ const Projects = () => {
       status: "Completed",
       year: "2025",
       color: "accent",
-      githubUrl: "https://github.com/mokshagna2754/skin-gleam-ai"
+      githubUrl: "https://github.com/mokshagna2754/skin-gleam-ai",
+      images: ["/derma lens1.jpeg", "/derma lens2.jpeg", "/derma lens3.jpeg"]
     }
   ];
 
